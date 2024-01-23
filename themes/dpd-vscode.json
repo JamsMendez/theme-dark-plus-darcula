@@ -41,7 +41,7 @@
     "tab.inactiveBackground": "#3C3F41",
     "tab.border": "#3C3F41",
     "tab.lastPinnedBorder": "#FFFFFF1A",
-    "editorGroupHeader.tabsBackground": "#3C3F41",
+    "editorGroupHeader.tabsBackground": "#1E1F22",
     "editorGroupHeader.noTabsBackground": "#3C3F41",
     // Editor Group
     "editorGroup.emptyBackground": "#3C3F41",
@@ -68,7 +68,7 @@
     "badge.background": "#FFFFFF30",
     "badge.foreground": "#E8E8E8",
     // Status Bar
-    "statusBar.background": "#3C3F41",
+    "statusBar.background": "#1E1F22",
     "statusBar.foreground": "#AFB1B3",
     "statusBar.border": "#00000030",
     "statusBar.noFolderBackground": "#3C3F41",
@@ -78,14 +78,14 @@
     "statusBar.debuggingForeground": "#AFB1B3",
     "statusBar.debuggingBorder": "#00000030",
     // Editor Main
-    "editor.background": "#2B2B2B",
+    "editor.background": "#1E1F22",
     "editor.foreground": "#A9B7C6",
     "editor.lineHighlightBackground": "#A0CCFF0B",
     "editor.selectionBackground": "#1177BB80",
     "editorIndentGuide.background": "#FFFFFF10",
     "editorIndentGuide.activeBackground": "#FFFFFF20",
     // Editor Gutter
-    "editorGutter.background": "#2B2B2B",
+    "editorGutter.background": "#1E1F22",
     "editorLineNumber.foreground": "#606366",
     "editorLineNumber.activeForeground": "#A4A3A3",
     // Editor Widgets
@@ -255,6 +255,9 @@
         "keyword.other.using",
         "keyword.other.operator",
         "entity.name.operator",
+        "keyword",
+        "keyword.operator.logical",
+        "keyword.operator.constructor",
       ],
       "settings": {
         "foreground": "#CF8E6D"
@@ -675,6 +678,8 @@
       "scope": [
         "meta.tag.custom entity.name.tag.html",
         "meta.tag.other.unrecognized entity.name.tag.html",
+        "entity.name.tag",
+        "entity.name.tag.class.js",
       ],
       "settings": {
         "foreground": "#26BDA4"

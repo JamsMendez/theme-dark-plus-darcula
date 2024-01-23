@@ -257,6 +257,9 @@
         "keyword.other.using",
         "keyword.other.operator",
         "entity.name.operator",
+        "keyword",
+        "keyword.operator.logical",
+        "keyword.operator.constructor",
       ],
       "settings": {
         "foreground": "#CF8E6D"
@@ -410,7 +413,7 @@
         "entity.name.function.member",
       ],
       "settings": {
-				"foreground": "#FFC66D"
+				"foreground": "#CF8E6D"
       }
     },
     // Regexp
@@ -519,7 +522,7 @@
     {
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "#BABABA"
+        "foreground": "#AF9C73"
       }
     },
     // Language-specific: C++
@@ -677,6 +680,8 @@
       "scope": [
         "meta.tag.custom entity.name.tag.html",
         "meta.tag.other.unrecognized entity.name.tag.html",
+        "entity.name.tag",
+        "entity.name.tag.class.js",
       ],
       "settings": {
         "foreground": "#26BDA4"

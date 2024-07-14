@@ -234,7 +234,11 @@
     // Keywords & Operators
     {
       "name": "keyword fallback",
-      "scope": "keyword",
+      "scope": [
+        "keyword",
+        "keyword.language",
+        "keyword.other",
+      ],
       "settings": {
         "foreground": "#CC7832"
       }
@@ -264,7 +268,13 @@
       }
     },
     {
-      "scope": "storage.type.function", // func declare keyword in some languages
+      "scope": [
+        "storage.modifier",
+        "storage.type.modifier",
+        "storage.type.function", // func declare keyword in some languages
+        "storage.type.var", // variable declare keyword in some languages
+        "storage.type.const", // constant declare keyword in some languages
+      ],
       "settings": {
         "foreground": "#CC7832"
       }
@@ -301,9 +311,10 @@
       }
     },
     {
-      "name": "language-level types and accessibility modifiers",
+      "name": "language-level types",
       "scope": [
         "keyword.type",
+        "storage.type.built-in",
         "storage.type.built-in",
         "storage.type.built-in.primitive",
         "storage.type.basic",
@@ -386,6 +397,7 @@
       "scope": [
         "variable.other.constant",
         "variable.other.enummember",
+        "constant.other.enum",
         "support.constant",
       ],
       "settings": {
@@ -659,7 +671,18 @@
         "storage.modifier.package.java",
       ],
       "settings": {
-        "foreground": "#A9B7C6"
+        "foreground": "#A5C261"
+      }
+    },
+    {
+      "scope": [
+        "meta.tag.custom entity.name.tag.html",
+        "meta.tag.other.unrecognized entity.name.tag.html",
+        "entity.name.tag",
+        "entity.name.tag.class.js",
+      ],
+      "settings": {
+        "foreground": "#26BDA4"
       }
     },
     // Language-specific: HTML

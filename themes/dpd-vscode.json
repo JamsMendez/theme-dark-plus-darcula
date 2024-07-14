@@ -82,8 +82,8 @@
     "editor.foreground": "#A9B7C6",
     "editor.lineHighlightBackground": "#A0CCFF0B",
     "editor.selectionBackground": "#1177BB80",
-    "editorIndentGuide.background": "#FFFFFF10",
-    "editorIndentGuide.activeBackground": "#FFFFFF20",
+    "editorIndentGuide.background1": "#FFFFFF10",
+    "editorIndentGuide.activeBackground1": "#FFFFFF20",
     // Editor Gutter
     "editorGutter.background": "#1E1F22",
     "editorLineNumber.foreground": "#606366",
@@ -320,6 +320,7 @@
         "storage.type.basic",
         "storage.modifier",
         "storage.type.modifier",
+		"storage.type.primitive",
       ],
       "settings": {
         "foreground": "#CC7832"
